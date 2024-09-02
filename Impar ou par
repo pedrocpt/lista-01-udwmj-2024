@@ -1,0 +1,17 @@
+<?php
+// Solicita ao usuário para digitar um número
+echo "Digite um número: ";
+$numero = readline(); // Captura a entrada do usuário
+
+// Função que verifica se um número é par ou ímpar
+function verificarParOuImpar($numero) {
+    if ($numero % 2 == 0) {
+        echo "O número $numero é par.\n";
+    } else {
+        echo "O número $numero é ímpar.\n";
+    }
+}
+
+// Chama a função com o número informado pelo usuário
+verificarParOuImpar($numero);
+?>
